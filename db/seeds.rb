@@ -14,3 +14,7 @@ actor.save
 actor = Actor.new({first_name: "Adam", last_name: "Sandler", known_for: "Happy Gilmore"})
 actor.save
 
+
+movie = Movie.new({title: "Point Break", year: "1991", plot: "Bank robbers trying not to get caught by fbi."})
+movie.save
+
